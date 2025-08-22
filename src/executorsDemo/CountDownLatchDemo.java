@@ -34,7 +34,6 @@ public class CountDownLatchDemo {
 
             } catch (Exception e) {
             } finally {
-
                 latch.countDown();
             }
             return "hello world !";
