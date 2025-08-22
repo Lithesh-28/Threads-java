@@ -10,7 +10,7 @@ public class FutureDemo {
         ExecutorService execute = Executors.newSingleThreadExecutor();
         Future<?> future = execute.submit(() -> {
             System.out.println("hello");
-            return "hiii";
+            return "hii";
         });
         System.out.println(future.get());
         if (future.isDone())
